@@ -1,0 +1,50 @@
+*{
+    border: 2px Solid red;
+}
+
+nav {
+    display: flex;
+    border: 2px Solid black;
+    height: 15vh;
+    background-color: #ffffff;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+section{
+    background-color: aqua;
+    content: contain;
+
+}
+.card-top{
+    height: 15vh;
+}
+.card-bottom{
+    height: 24vh;
+    contain: content; 
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 70vh;
+    content: contain;
+}
+
+article {
+    /* background: blue; */
+    width: 20vw;
+    height: 35vh;
+    contain: content;
+}
+
+button{
+    height:20px;
+    width: 150px;
+    background-color: blueviolet;
+}
+
+img{
+    width: 100%;
+}
