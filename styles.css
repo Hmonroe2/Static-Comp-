@@ -6,16 +6,16 @@ nav {
     display: flex;
     border: 2px Solid black;
     height: 15vh;
-    background-color: #ffffff;
+    background-color: #232323;
     justify-content: flex-start;
     align-items: flex-end;
+    font: white;
 }
 
-section{
-    background-color: aqua;
+/* section{ */
+    /* background-color: aqua;
     content: contain;
-
-}
+} */
 .card-top{
     height: 15vh;
 }
@@ -23,13 +23,14 @@ section{
     height: 24vh;
     contain: content; 
 }
-main{
+.card-section{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 70vh;
-    content: contain;
+    height: 100vh;
+    contain: content;
+    margin-top: 20px;
 }
 
 article {
@@ -38,13 +39,39 @@ article {
     height: 35vh;
     contain: content;
 }
-
+.nav-bar{
+    display: flex;
+}
 button{
-    height:20px;
-    width: 150px;
-    background-color: blueviolet;
+    margin-bottom: 10px;
+    border: none;
+    height:30px;
+    width: 200px;
+    background-color: #232323;
+    /* contain: content;  */
+    color: white ;
+    align-content: center;
+    text-align: center;
+    font-size: 12px;
 }
 
-img{
+.card-image{
     width: 100%;
+}
+
+.nav-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.nav-logo{
+    width:20%;
+    height: 100%;
+}
+.nav-bar-left{
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: flex-end;
+    align-items: flex-end;
+
 }
