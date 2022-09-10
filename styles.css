@@ -1,43 +1,81 @@
-*{
+/* *{
     border: 2px Solid red;
-}
+} */
 
 nav {
     display: flex;
     border: 2px Solid black;
     height: 15vh;
+    width: 100%;
     background-color: #232323;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-end;
     font: white;
 }
-
+body{
+    background-color: gray;
+}
+a{
+    padding-top: 4px;
+}
+h1{
+    padding-left: 8px;
+}
 /* section{ */
     /* background-color: aqua;
     content: contain;
 } */
 .card-top{
     height: 15vh;
+    contain: content;
 }
 .card-bottom{
     height: 24vh;
     contain: content; 
+    padding: 8px;
 }
 .card-section{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
     height: 100vh;
     contain: content;
     margin-top: 20px;
+    align-content: flex-start;
 }
-
-article {
-    /* background: blue; */
-    width: 20vw;
-    height: 35vh;
+.card-container{
     contain: content;
+    background-color: rgba(220, 220, 220, 0.93);
+    width: 18vw;
+    height: 40vh;
+    contain: content;
+    margin: 5px;
+    box-shadow: 2px #232323;
+}
+.card-logo{
+    height: 10px; 
+    background-color: black;
+}
+.card-name{
+    font-size: 14px;
+    margin: 0;
+}
+.card-date{
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.card-links{
+    margin-top: 8px;
+    background-color: gray;
+}
+.number{
+    color: blue;
+    font-size: 20px;
+    margin-top: 2px;
+}
+.attachments{
+    margin: 2px;
 }
 .nav-bar{
     display: flex;
@@ -67,11 +105,11 @@ button{
 .nav-logo{
     width:20%;
     height: 100%;
+    align-items: center;
 }
 .nav-bar-left{
     display: flex;
     flex-direction: column-reverse;
     align-content: flex-end;
     align-items: flex-end;
-
 }
