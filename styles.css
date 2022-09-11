@@ -111,6 +111,7 @@ main{
     margin-top: 8px;
     background-color: rgba(198, 195, 195, 0.619);
     color: #404040;
+    background-size:contain;
 }
 .card-playlist{
     font-size: 12px;
